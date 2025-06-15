@@ -1,0 +1,28 @@
+.myapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.target{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    border: 1px solid red;
+    top: 150px;
+    left: 150px;
+}
+.gameContainer{
+    height: 440px;
+    width: 440px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    position: relative;
+}
+
+.object{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+}
